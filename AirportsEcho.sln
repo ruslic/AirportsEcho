@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirportsEcho.API", "AirportsEcho.API\AirportsEcho.API.csproj", "{EC2552BD-6DF5-473B-8EFB-24174DBBCBD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirportsEcho.Calculator", "AirportsEcho.Calculator\AirportsEcho.Calculator.csproj", "{CAF5B529-3127-4EFE-AEEE-56B8564BCFE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirportsEcho.Interaction", "AirportsEcho.Interaction\AirportsEcho.Interaction.csproj", "{5668F80B-1174-4961-A552-5C2B192903AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirportsEcho.Test", "AirportsEcho.Test\AirportsEcho.Test.csproj", "{1934D9C4-B1EC-4E97-89B5-EB819D9A1437}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MockData", "MockData\MockData.csproj", "{FE88F98F-3C53-4B7F-8B5D-425A51762971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportEcho.IntegrationTest", "AirportEcho.IntegrationTest\AirportEcho.IntegrationTest.csproj", "{84AB83BC-1F18-44A2-96C0-B56F854F07E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC2552BD-6DF5-473B-8EFB-24174DBBCBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2552BD-6DF5-473B-8EFB-24174DBBCBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2552BD-6DF5-473B-8EFB-24174DBBCBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2552BD-6DF5-473B-8EFB-24174DBBCBD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF5B529-3127-4EFE-AEEE-56B8564BCFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF5B529-3127-4EFE-AEEE-56B8564BCFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF5B529-3127-4EFE-AEEE-56B8564BCFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF5B529-3127-4EFE-AEEE-56B8564BCFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5668F80B-1174-4961-A552-5C2B192903AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5668F80B-1174-4961-A552-5C2B192903AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5668F80B-1174-4961-A552-5C2B192903AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5668F80B-1174-4961-A552-5C2B192903AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1934D9C4-B1EC-4E97-89B5-EB819D9A1437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1934D9C4-B1EC-4E97-89B5-EB819D9A1437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1934D9C4-B1EC-4E97-89B5-EB819D9A1437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1934D9C4-B1EC-4E97-89B5-EB819D9A1437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE88F98F-3C53-4B7F-8B5D-425A51762971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE88F98F-3C53-4B7F-8B5D-425A51762971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE88F98F-3C53-4B7F-8B5D-425A51762971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE88F98F-3C53-4B7F-8B5D-425A51762971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AB83BC-1F18-44A2-96C0-B56F854F07E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AB83BC-1F18-44A2-96C0-B56F854F07E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AB83BC-1F18-44A2-96C0-B56F854F07E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AB83BC-1F18-44A2-96C0-B56F854F07E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB11B63B-94F8-4682-9161-9A434DBECF5F}
+	EndGlobalSection
+EndGlobal

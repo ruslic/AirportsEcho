@@ -1,0 +1,6 @@
+@AirportsEcho.API_HostAddress = http://localhost:5003
+
+GET {{AirportsEcho.API_HostAddress}}/flightdistance/
+Accept: application/json
+
+###
